@@ -1,0 +1,56 @@
+body {
+    max-width: 1200px;
+    background-color: yellow;
+    margin: 0 auto; 
+}
+header > p {
+    color: black;
+}
+h1 {
+    color: blue;
+}
+.fancy{
+    color:blue;
+    width: 500px;
+    margin: 20px auto;
+    padding: 50px;
+    border-width: 10px;
+}
+body {
+    border: 10px solid black;
+}
+div {
+    width: 270px;
+    margin-left: 20px;
+}
+    .use-content-box {
+    box-sizing: border-box;
+}
+p {
+    color: red;
+}
+
+#selected {
+    color: green;
+}
+/*p {
+    border: medium solid brown;
+}*/
+.hidden {
+    opacity: 50;
+}
+.relative2 {
+  position: relative;
+  top: -20px;
+  left: 20px;
+  background-color: white;
+  width: 500px;
+}
+a[href^="http"]{
+    color: red;
+}
+
+
+
+
+

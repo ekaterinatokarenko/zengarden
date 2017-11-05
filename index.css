@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Spirax');
+p {
+    font-family: 'Spirax', cursive;
+}
+
 body {
+    
     max-width: 1200px;
     background-color: yellow;
     margin: 0 auto; 
+}
+body {
+background-image: url(forest-background.jpg);
+background-position: center center, 20% 80%;
+background-origin: border-box;
+background-repeat: repeat;
 }
 header > p {
     color: black;
@@ -28,7 +40,12 @@ div {
 }
 p {
     color: red;
+    background-color: orange;
 }
+p::first-letter{
+    color:white;
+}
+
 
 #selected {
     color: green;
@@ -48,6 +65,9 @@ p {
 }
 a[href^="http"]{
     color: red;
+}
+a:visited {
+    color: blue;
 }
 
 

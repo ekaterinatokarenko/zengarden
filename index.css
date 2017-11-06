@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Spirax');
-p {
-    font-family: 'Spirax', cursive;
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+* {
+    font-family: 'Dosis', sans-serif;
 }
 
 body {
@@ -18,41 +18,72 @@ background-repeat: repeat;
 header > p {
     color: black;
 }
+img  {
+  float: right;
+  margin: 0 0 1em 1em;
+}
+
 h1 {
     color: blue;
 }
+
+section {
+  width: 850px;
+  margin: 20px auto;
+  padding: 20px;
+  border-width: 10px;
+}
+
 .fancy{
-    color:blue;
-    width: 500px;
+    color:black;
+    background-color: #9ACD32;
+    width: 550px;
     margin: 20px auto;
-    padding: 50px;
+    padding: 20px;
     border-width: 10px;
 }
 body {
     border: 10px solid black;
 }
-div {
-    width: 270px;
-    margin-left: 20px;
-}
+
     .use-content-box {
     box-sizing: border-box;
 }
+h1 {
+    color:black;
+    background-color: green;
+}
+h2 {
+    color:black;
+    background-color: #9ACD32;
+}
+
+
+
 p {
-    color: red;
+    color: black;
     background-color: orange;
 }
-p::first-letter{
-    color:white;
+p::first-letter {
+    color:red;
+}
+h2::first-letter {
+    color:#0B3B17;
 }
 
-
-#selected {
-    color: green;
+h1::first-letter {
+    color:red;
 }
-/*p {
-    border: medium solid brown;
-}*/
+
+nav{
+    width: 650px;
+    background-color: #298A08;
+    margin: 20px auto;
+    padding: 20px;
+    border-width: 10px;
+    
+}
+
 .hidden {
     opacity: 50;
 }
@@ -64,13 +95,8 @@ p::first-letter{
   width: 500px;
 }
 a[href^="http"]{
-    color: red;
+    color: white;
 }
 a:visited {
-    color: blue;
+    color: yellow;
 }
-
-
-
-
-
